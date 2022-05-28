@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.80.3-preview.40"/>
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.80.3-preview.40"/>
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0-preview.3.21201.4"/>
+  </ItemGroup>
+    <ItemGroup>
+    <ProjectReference Include="../src/LineSegmentDetectorCSharp.csproj" />
+  </ItemGroup>
+</Project>
